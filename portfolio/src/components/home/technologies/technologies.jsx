@@ -1,5 +1,5 @@
-const technologies = () => {
+const Technologies = () => {
 
 };
 
-export default technologies;
+export default Technologies;

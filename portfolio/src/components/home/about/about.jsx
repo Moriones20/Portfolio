@@ -1,5 +1,5 @@
-const about = () => {
+const About = () => {
 
 };
 
-export default about;
+export default About;

@@ -8,18 +8,18 @@ import Contact from "./components/home/contact/contact";
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <main className="flex min-h-screen items-stretch justify-between">
+      <div className="w-1/5 bg-blue-500">
         <Sidebar />
       </div>
-      <div>
+      <div className="w-4/5 bg-red-500">
         <Home />
         <About />
         <Technologies />
         <Portfolio />
         <Contact />
       </div>
-    </div>
+    </main>
   );
 }
 
