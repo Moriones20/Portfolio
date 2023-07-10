@@ -1,0 +1,55 @@
+.containerSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 35px 0px 20px 0;
+  color: ghostwhite;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.photo h1 {
+  margin-top: 20px;
+}
+
+.menuHome {
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnMenu {
+  display: flex;
+  justify-content: center;
+  margin: 6px 0px;
+  padding: 4px 0px;
+  transition: 0.3s ease-in;
+}
+
+.btnMenu:hover {
+  color: aqua;
+}
+
+.socialMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.socialMenu a {
+  padding: 0px 10px;
+}
