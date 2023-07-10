@@ -8,16 +8,26 @@ import Contact from "./components/home/contact/contact";
 
 function App() {
   return (
-    <main className="flex min-h-screen items-stretch justify-between">
-      <div className="w-1/5 bg-blue-500">
+    <main className="main">
+      <div className="mainSidebar">
         <Sidebar />
       </div>
-      <div className="w-4/5 bg-red-500">
-        <Home />
-        <About />
-        <Technologies />
-        <Portfolio />
-        <Contact />
+      <div className="mainHome">
+        <div id="home" className="h-screen">
+          <Home />
+        </div>
+        <div id="about" className="h-screen">
+          <About />
+        </div>
+        <div id="technologies" className="h-screen">
+          <Technologies />
+        </div>
+        <div id="portfolio" className="h-screen">
+          <Portfolio />
+        </div>
+        <div id="contact" className="h-screen">
+          <Contact />
+        </div>
       </div>
     </main>
   );
