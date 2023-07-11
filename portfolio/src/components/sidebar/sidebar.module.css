@@ -36,6 +36,11 @@
   font-weight: 600;
   font-size: 1.6rem;
   cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.photo h1:hover {
+  color: #1e90ff;
 }
 
 .menuHome {
@@ -49,11 +54,7 @@
   margin: 6px 0px;
   padding: 4px 0px;
   font-size: 1.2rem;
-  transition: 0.3s ease-in;
-}
-
-.btnMenu:hover {
-  color: #1e90ff;
+  transition: 0.2s ease-in;
 }
 
 .socialMenu {
@@ -65,9 +66,13 @@
 
 .svgSidebar {
   fill: ghostwhite;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .svgSidebar:hover {
   fill: #1e90ff;
+}
+
+.active {
+  color: #1e90ff;
 }

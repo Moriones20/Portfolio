@@ -5,9 +5,8 @@ import ReactPaginate from "react-paginate";
 
 const Portfolio = () => {
   const [currentPage, setCurrentPage] = useState(0);
-  const projectsPerPage = 2; // Cantidad de proyectos a mostrar por página
+  const projectsPerPage = 1;
 
-  // Cálculo de índices para la segmentación de los datos
   const indexOfLastProject = (currentPage + 1) * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
   const currentProjects = portfolioData.slice(
