@@ -1,6 +1,8 @@
+import styles from './contact.module.css'
+
 const Contact = () => {
   return (
-    <div>
+    <div className={styles["containerContact"]}>
       <h1>Contact</h1>
     </div>
   )

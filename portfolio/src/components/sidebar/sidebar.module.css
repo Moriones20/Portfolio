@@ -4,8 +4,18 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding: 35px 0px 20px 0;
-  color: ghostwhite;
+  padding: 40px 0px 20px 0;
+  position: relative;
+}
+
+.containerSidebar::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: 0;
+  height: calc(100% - 60px);
+  width: 1px;
+  background-color: #353c4c;
 }
 
 .photo {
@@ -16,14 +26,16 @@
 }
 
 .photo img {
-  width: 150px;
-  height: 150px;
-  border: 1px solid black;
+  width: 170px;
+  border: 6px solid #353c4c;
   border-radius: 100%;
 }
 
 .photo h1 {
-  margin-top: 20px;
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .menuHome {
@@ -36,20 +48,26 @@
   justify-content: center;
   margin: 6px 0px;
   padding: 4px 0px;
+  font-size: 1.2rem;
   transition: 0.3s ease-in;
 }
 
 .btnMenu:hover {
-  color: aqua;
+  color: #1e90ff;
 }
 
 .socialMenu {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 50%;
 }
 
-.socialMenu a {
-  padding: 0px 10px;
+.svgSidebar {
+  fill: ghostwhite;
+  transition: 0.3s ease-in;
+}
+
+.svgSidebar:hover {
+  fill: #1e90ff;
 }
