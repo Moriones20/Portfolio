@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Codecommunity",
+    "image": "https://i.ibb.co/W0VdGmX/codecommunity.png",
+    "description": "Red social para programadores.",
+    "tech": "React, JS, Bootstrap, Django, Python, PostgreSQL",
+    "link": "https://github.com/Sorsant/CodeCommunity"
+  },
+  {
+    "name": "Pokemon APP",
+    "image": "https://i.ibb.co/Y0w2nNc/Pokemon-App.png",
+    "description": "App para descubrir pokemones.",
+    "tech": "React, JS, Express, Sequelize, PostgreSQL",
+    "link": "https://github.com/Moriones20/PI-Pokemon-main"
+  },
+  {
+    "name": "Rick and Morty APP",
+    "image": "https://i.ibb.co/FYY1tPT/Rick-and-Morty.png",
+    "description": "App para descubrir los personajes de Rick and Morty.",
+    "tech": "React, JS, Express, Sequelize, PostgreSQL",
+    "link": "https://github.com/Moriones20/rick_and_morty"
+  },
+  {
+    "name": "APP Notas",
+    "image": "https://i.ibb.co/pPNSh72/App-notas.png",
+    "description": "App To-Do para guardar notas.",
+    "tech": "JS, Handlebars, Express, Mongoose, MongoDB",
+    "link": "https://github.com/Moriones20/App-notas"
+  }
+]

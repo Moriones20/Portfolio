@@ -47,8 +47,9 @@ const Home = () => {
         <h1>Soy {typedText}</h1>
         <h4>De Bogotá, Colombia</h4>
         <div className={styles["contactCV"]}>
-          <button>Contactame</button>
-          <button>Descargar CV</button>
+          <Link to="about" onClick={() => handleLinkClick("contact")}>
+            <button>Contactame</button>
+          </Link>
         </div>
       </div>
       <div className={styles["iconHome"]}>

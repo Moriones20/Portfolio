@@ -4,5 +4,99 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(138, 0, 0);
+}
+
+.containerPortfolio h1 {
+  display: flex;
+  align-items: center;
+  height: 20%;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.containerPaginate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px;
+}
+
+.project img {
+  border: 2px solid #353c4c;
+  border-radius: 12px;
+}
+
+.project h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #1E90FF;
+}
+
+.project h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #6a7897;
+}
+
+.project a {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: fit-content;
+  font-size: 1.2rem;
+  padding: 6px 12px; 
+  border: 2px solid #1E90FF;
+  color: #1E90FF;
+  transition: 0.4s ease-in-out;
+}
+
+.project a:hover {
+  background-color: #1E90FF;
+  color: ghostwhite;
+}
+
+.iconInternet {
+  padding-left: 4px;
+  fill: #1E90FF;
+  transition: 0.4s ease-in-out;
+}
+
+.project a:hover .iconInternet {
+  fill: ghostwhite;
+}
+
+.paginateTech {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+}
+
+.paginateTech a {
+  font-size: 1.3rem;
+  color: #1E90FF;
+  margin: 0px 8px;
+  transition: 0.2s ease-in-out;
+}
+
+.paginateTech a:hover {
+  color: #6fc0ff;
 }

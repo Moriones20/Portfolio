@@ -1,0 +1,11 @@
+.large_circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #1E90FF;
+  position: fixed;
+  pointer-events: none;
+  transition: transform 0.1s;
+  box-shadow: 0 0 145px 150px #1E90FF;
+  opacity: 0.1;
+}
