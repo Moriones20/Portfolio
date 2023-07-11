@@ -40,7 +40,13 @@ const About = () => {
           <h3>
             <span>De:</span> Bogotá, Colombia
           </h3>
-          <button>Descargar CV</button>
+          <a
+            href="https://drive.google.com/file/d/1CFMMuByg8FZ9Y3xlt_VKKAqHlrSwUjZC/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Ver CV</button>
+          </a>
         </div>
       </div>
     </div>
