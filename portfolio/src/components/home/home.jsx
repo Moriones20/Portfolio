@@ -5,7 +5,7 @@ import styles from "./home.module.css";
 
 const Home = () => {
   const [typedText, setTypedText] = useState("");
-  const targetText = "Soy desarrollador Full Stack.";
+  const targetText = "Soy Desarrollador Full Stack.";
   const [isBlinking, setIsBlinking] = useState(true);
 
   const handleLinkClick = (target) => {
