@@ -1,13 +1,25 @@
 import styles from "./sidebar.module.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link, animateScroll, scroller } from "react-scroll";
 import Profile from "../../assets/Profile_photo.jpg";
 
 const Sidebar = () => {
+  const [showButton, setShowButton] = useState(false);
+
   useEffect(() => {
     animateScroll.scrollToTop({
       duration: 0,
     });
+
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 500; // Verifica si se ha desplazado desde la parte superior
+      setShowButton(isScrolled); // Muestra el botón si no se ha desplazado o lo oculta si se ha desplazado
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const handleLinkClick = (target) => {
@@ -16,6 +28,8 @@ const Sidebar = () => {
       delay: 0,
       smooth: "easeInOutQuint",
     });
+
+    setShowButton(false);
   };
 
   return (
@@ -68,6 +82,22 @@ const Sidebar = () => {
           </Link>
         </div>
       </div>
+      {showButton && (
+        <div className={styles["btnScrollToTop"]}>
+          <Link
+            activeClass={styles["active"]}
+            spy={true}
+            to="home"
+            onClick={() => handleLinkClick("home")}
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9ElEQVR4nO2SywnCQBCGvx58BLQGLULRi6coHmzAFjxrE3YQL+rJDvSmZfhEwRIigRGGJbMxkIviBwvZnZ3ZfzI//PkmAmAGTOW7UIbAHYhlPYFxEYWrwFIVdtcGqBWlOjZW7m4s1TdgAPSAo9FNPat4x1AdASV1ryRn7r0H0PU9cHYSrkCo4k2gofZ9uaNzTr4HDobqAFip2EpZtQwsVGzveyBxxARoqbORtJ72O5LYm7bk1oqyaJxnuC6W6sgzXN2NSQVYpxS4OsMOU4YbS25Sw2T3gUWzrLrFw8Wj2sLtJrG6SV+sOjdUW5Ql5/ChqD+/xAuPgYTsfvdcIwAAAABJRU5ErkJggg=="
+              alt="arrow"
+              className={styles["arrowScrollToTop"]}
+            />
+          </Link>
+        </div>
+      )}
       <div className={styles["socialMenu"]}>
         <a
           href="https://www.linkedin.com/in/felipe-moriones/"
