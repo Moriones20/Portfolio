@@ -9,7 +9,7 @@
   {
     "name": "Pokemon APP",
     "image": "https://i.ibb.co/Y0w2nNc/Pokemon-App.png",
-    "description": "App para descubrir pokemones.",
+    "description": "App para descubrir Pokémon.",
     "tech": "React, JS, Express, Sequelize, PostgreSQL",
     "link": "https://github.com/Moriones20/PI-Pokemon-main"
   },

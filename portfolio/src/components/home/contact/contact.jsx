@@ -46,14 +46,14 @@ const Contact = () => {
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA6klEQVR4nO2UrQrCYBSGH7TbBGHBoFehUS/AYBYvQZNeik2wKOwSFOwGiwNBtApWFQ06J4MzGPJN2HaW9IWT9vE+nJ+98FdMNYED4AEusAIqKGov5uGaagKOBoCjCVgaAGdNwMgAcIG8FqBrACxQVAG4hcy3QAll2WLuX1SRDFQHXrJci4w0ky7srABl4CqQflaQlpyoX+0v73JpIEPp4gn0Pr75BzAP7cuRWKnGhQyki2AnlphvDP+MJwGZaFyXUHSYQjGoBwllARMZSZR5MM5Uqsmo7hEAvzu1WOkAY2ANnIAd0NAC8Bt6A9vPYU+qAWblAAAAAElFTkSuQmCC"
                 alt="phone"
               />
-              <h2>(+57) 302 311 8968</h2>
+              <h2>+57 302 311 8968</h2>
             </div>
             <div className={styles["phone2"]}>
               <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAq0lEQVR4nO2VQQoCMQxF30o3s7JHEmHUE+kJHc/gqnoDN7oxUoggpe1QJ+Iw+OEvfkjySwIpTA0tcAZE6TW2BS5v8RxD7bpk4BNFPjLtY8jP4pUUa6nkuA0WiTpnaeC+bSCT2IEraJMduIIe/4jkvwP59YhkiEHuXJ+sznUbmXiNLSuah/xe3LVgpnqu+oYRjtpwBzTAXnVnZbACHokRFP/bWmz0xVfg8GnzJ2cwFjkZgJNaAAAAAElFTkSuQmCC"
                 alt="phone"
               />
-              <h2>(+57) 301 595 7643</h2>
+              <h2>+57 301 595 7643</h2>
             </div>
             <div className={styles["emailContact"]}>
               <img
@@ -122,7 +122,7 @@ const Contact = () => {
         </div>
         <div className={styles["containerForm"]}>
           <form onSubmit={handleSubmit}>
-            <h1>Enviame una nota</h1>
+            <h1>Envíame una nota</h1>
             <div className={styles["nameEmail"]}>
               <input
                 type="text"
