@@ -64,13 +64,24 @@
   width: 50%;
 }
 
-.svgSidebar {
+.svgLinkedin, .svgGit, .svgInsta {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 8px;
   fill: ghostwhite;
   transition: 0.2s ease-in;
 }
 
-.svgSidebar:hover {
-  fill: #1e90ff;
+.svgLinkedin:hover {
+  fill: #0e76a8;
+}
+
+.svgGit:hover {
+  fill: #5f5f5f;
+}
+
+.svgInsta:hover {
+  fill: #E1306C;
 }
 
 .active {
