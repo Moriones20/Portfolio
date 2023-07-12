@@ -26,6 +26,7 @@ const Contact = () => {
 
       if (response.status === 200) {
         setFormStatus("success");
+        setFormData({ name: "", email: "", message: "",})
         console.log("El formulario se ha enviado correctamente");
       }
     } catch (error) {
@@ -157,17 +158,20 @@ const Contact = () => {
             <div className={styles["buttonForm"]}>
               <button type="submit">Enviar</button>
             </div>
+            <div className={styles["successError"]}>
+              {formStatus === "success" && (
+                <div className={styles["successMessage"]}>
+                  ¡El formulario se ha enviado correctamente!
+                </div>
+              )}
+              {formStatus === "error" && (
+                <div className={styles["errorMessage"]}>
+                  ¡No se pudo enviar el formulario! Por favor, inténtalo de
+                  nuevo.
+                </div>
+              )}
+            </div>
           </form>
-          {formStatus === "success" && (
-            <div className={styles["successMessage"]}>
-              ¡El formulario se ha enviado correctamente!
-            </div>
-          )}
-          {formStatus === "error" && (
-            <div className={styles["errorMessage"]}>
-              ¡No se pudo enviar el formulario! Por favor, inténtalo de nuevo.
-            </div>
-          )}
         </div>
       </div>
       <footer className={styles["footer"]}>

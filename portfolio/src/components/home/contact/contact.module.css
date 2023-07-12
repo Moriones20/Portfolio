@@ -121,8 +121,8 @@
 .containerForm form {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
 }
 
 .nameEmail {
@@ -168,15 +168,15 @@
 .buttonForm button {
   width: 50%;
   font-size: 1.2rem;
-  padding: 10px 20px; 
-  border: 2px solid #1E90FF;
+  padding: 10px 20px;
+  border: 2px solid #1e90ff;
   border-radius: 100px 100px 100px 100px;
-  color: #1E90FF;
+  color: #1e90ff;
   transition: 0.4s ease-in-out;
 }
 
 .buttonForm button:hover {
-  background-color: #1E90FF;
+  background-color: #1e90ff;
   color: ghostwhite;
 }
 
@@ -185,13 +185,23 @@
 }
 
 .footer h1 a {
-  color: #1E90FF;
+  color: #1e90ff;
 }
 
-.successMessage, .errorMessage {
-  font-size: 1.1rem;
-  margin-top: 20px;
-  padding: 6px 14px;
+.successError {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.successMessage,
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 3%;
+  padding: 5px 12px;
   border-radius: 8px;
 }
 
