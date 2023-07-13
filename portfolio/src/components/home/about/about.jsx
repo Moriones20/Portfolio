@@ -41,7 +41,7 @@ const About = () => {
             <span>De:</span> Bogotá, Colombia
           </h3>
           <a
-            href="https://drive.google.com/file/d/1CFMMuByg8FZ9Y3xlt_VKKAqHlrSwUjZC/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1mO5aXXoqcIndSx039ByEv3O83EhrGzKQ/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
