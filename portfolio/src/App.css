@@ -1,8 +1,8 @@
 .main {
   display: flex;
   flex-direction: row;
-  min-width: 100vh;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #0f1624;
 }
 
@@ -10,11 +10,41 @@
   width: 20%;
   background: transparent;
   position: fixed;
-  height: 100vh;
+  height: 100%;
+}
+
+.mainNavbar {
+  display: none;
+  width: 100%;
 }
 
 .mainHome {
   width: 100%;
   padding-left: 20%;
   background: transparent;
+}
+
+.sectionHome {
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+}
+
+@media (max-width: 1023px) {
+  .mainSidebar {
+    display: none;
+  }
+
+  .mainNavbar {
+    display: inline-block;
+    position: fixed;
+  }
+
+  .cursor {
+    display: none;
+  }
+
+  .mainHome {
+    padding-left: 0px;
+  }
 }

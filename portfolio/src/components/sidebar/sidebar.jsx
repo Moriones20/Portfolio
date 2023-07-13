@@ -12,8 +12,8 @@ const Sidebar = () => {
     });
 
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 500; // Verifica si se ha desplazado desde la parte superior
-      setShowButton(isScrolled); // Muestra el botón si no se ha desplazado o lo oculta si se ha desplazado
+      const isScrolled = window.scrollY > 500;
+      setShowButton(isScrolled);
     };
     window.addEventListener("scroll", handleScroll);
 

@@ -107,3 +107,9 @@
 .btnScrollToTop:hover {
   background-color: #1e90ff;
 }
+
+@media (max-width: 1023px) {
+  .containerSidebar {
+    display: none;
+  }
+}
