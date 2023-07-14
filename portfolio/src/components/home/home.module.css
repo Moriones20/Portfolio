@@ -84,3 +84,25 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .infoFirstHome h2 {
+    font-weight: bolder;
+    font-size: 1.6rem;
+  }
+
+  .infoFirstHome h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 0 2rem;
+  }
+
+  .infoFirstHome h4 {
+    font-size: 1rem;
+  }
+
+  .contactCV button {
+    font-size: 1rem;
+  }
+}

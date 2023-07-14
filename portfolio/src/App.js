@@ -20,16 +20,16 @@ function App() {
         <Sidebar />
       </div>
       <div className="mainHome">
-        <div id="home" className="sectionHome">
+        <div id="home">
           <Home />
         </div>
-        <div id="about" className="sectionHome">
+        <div id="about">
           <About />
         </div>
-        <div id="portfolio" className="sectionHome">
+        <div id="portfolio">
           <Portfolio />
         </div>
-        <div id="contact" className="sectionHome">
+        <div id="contact">
           <Contact />
         </div>
       </div>

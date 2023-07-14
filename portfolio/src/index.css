@@ -37,3 +37,10 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #00CED1;
 }
+
+@media (max-width: 1023px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}

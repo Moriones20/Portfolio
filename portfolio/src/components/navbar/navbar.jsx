@@ -9,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav class="bg-custom-blue text-white shadow-lg">
+    <nav class="bg-custom-blue text-white shadow-lg fixed w-screen z-10">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <div className="flex items-center">
-          <h1 className="text-lg font-semibold">Felipe Moriones</h1>
+          <h1 className="text-xl font-semibold">Felipe Moriones</h1>
         </div>
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden md:flex items-center space-x-4 text-base">
           <Link
             activeClass="text-blue-500"
             to="home"
@@ -95,7 +95,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden">
-          <div className="flex flex-col space-y-4 px-4 py-2 bg-custom-blue text-lg shadow-lg">
+          <div className="flex flex-col space-y-4 px-4 py-2 bg-custom-blue text-base shadow-lg">
             <Link
               activeClass="text-blue-500"
               to="home"
