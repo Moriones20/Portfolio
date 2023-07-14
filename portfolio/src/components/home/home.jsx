@@ -43,7 +43,7 @@ const Home = () => {
         </h1>
         <h4>De Bogotá, Colombia</h4>
         <div className={styles["contactCV"]}>
-          <Link to="about" onClick={() => handleLinkClick("contact")}>
+          <Link to="contact" onClick={() => handleLinkClick("contact")}>
             <button>Contáctame</button>
           </Link>
         </div>

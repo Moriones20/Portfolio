@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav class="bg-custom-blue text-white shadow-lg fixed w-screen z-10">
+    <nav class="bg-custom-blue text-white dark:shadow-xl fixed w-screen z-10">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <div className="flex items-center">
           <h1 className="text-xl font-semibold">Felipe Moriones</h1>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </Link>
           <Link
             activeClass="text-blue-500"
-            to="about"
+            to="aboutResp"
             spy={true}
             smooth={true}
             offset={-70}
@@ -47,7 +47,7 @@ const Navbar = () => {
           </Link>
           <Link
             activeClass="text-blue-500"
-            to="contact"
+            to="contactResp"
             spy={true}
             smooth={true}
             offset={-70}
@@ -109,7 +109,7 @@ const Navbar = () => {
             </Link>
             <Link
               activeClass="text-blue-500"
-              to="about"
+              to="aboutResp"
               spy={true}
               smooth={true}
               offset={-70}
@@ -131,7 +131,7 @@ const Navbar = () => {
             </Link>
             <Link
               activeClass="text-blue-500"
-              to="contact"
+              to="contactResp"
               spy={true}
               smooth={true}
               offset={-70}

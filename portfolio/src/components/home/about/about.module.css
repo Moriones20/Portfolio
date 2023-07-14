@@ -76,3 +76,58 @@
   background-color: #1E90FF;
   color: ghostwhite;
 }
+
+@media (max-width: 768px) {
+  .containerAbout {
+    height: auto;
+    margin: 40px 0;
+  }
+
+  .titleAbout {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+
+  .contentAbout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoAboutMe {
+    width: 100%;
+    height: 100%;
+    padding: 10px 40px;
+  }
+
+  .infoAboutMe h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 8px 0px;
+  }
+  
+  .infoAboutMe p {
+    font-size: 1rem;
+  }
+
+  .infoMe {
+    padding: 20px 20px;
+    margin: 10px 0 18px 0;
+    border: 2px solid #1E90FF;
+    border-radius: 10px;
+  }
+  
+  .infoMe h3 {
+    font-size: 1.1rem;
+    margin: 5px 0px;
+  }
+  
+  .infoMe span {
+    font-weight: 700;
+  }
+  
+  .infoMe button {
+    background-color: #1E90FF;
+    color: ghostwhite;
+    margin-bottom: 5px;
+  }
+}

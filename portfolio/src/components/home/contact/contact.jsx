@@ -26,7 +26,7 @@ const Contact = () => {
 
       if (response.status === 200) {
         setFormStatus("success");
-        setFormData({ name: "", email: "", message: "",})
+        setFormData({ name: "", email: "", message: "" });
         console.log("El formulario se ha enviado correctamente");
       }
     } catch (error) {
@@ -37,7 +37,9 @@ const Contact = () => {
 
   return (
     <div className={styles["containerContact"]}>
-      <h1 className={styles["titleContact"]}>Ponte en contacto</h1>
+      <h1 className={styles["titleContact"]} id="contactResp">
+        Ponte en contacto
+      </h1>
       <div className={styles["formLinks"]}>
         <div className={styles["linksContact"]}>
           <div className={styles["contactDetails"]}>

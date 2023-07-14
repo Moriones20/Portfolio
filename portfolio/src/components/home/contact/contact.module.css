@@ -214,3 +214,117 @@
   color: #b80c0c;
   border: 2px solid #b80c0c;
 }
+
+@media (max-width: 768px) {
+  .containerContact {
+    height: auto;
+  }
+
+  .titleContact {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .formLinks {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+  }
+
+  .footer {
+    height: auto;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .linksContact {
+    height: auto;
+    width: auto;
+    margin: 30px 20px 20px 20px;
+  }
+
+  .contactDetails,
+  .socialContact {
+    align-items: center;
+  }
+
+  .contactDetails h1,
+  .socialContact h1,
+  .containerForm form h1 {
+    font-size: 1.3rem;
+  }
+
+  .phone1,
+  .phone2,
+  .emailContact {
+    font-size: 1.1rem;
+  }
+
+  .svgLinkedin,
+  .svgGit,
+  .svgInsta {
+    margin: 4px 16px;
+  }
+
+  .containerForm {
+    height: auto;
+    width: 100%;
+    margin-top: 24px 24px 0 24px;
+  }
+
+  .containerForm form {
+    width: 80%;
+    height: auto;
+    margin: 0 30px;
+  }
+
+  .nameEmail {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .contactName,
+  .contactEmail,
+  .contactText {
+    color: black;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+
+  .contactName,
+  .contactEmail {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .contactName,
+  .contactEmail {
+    margin: 0 0 20px 0;
+  }
+
+  .contactText {
+    padding: 0.6rem 0.8rem 5rem 0.8rem;
+    margin-top: 0;
+  }
+
+  .buttonForm button {
+    background-color: #1e90ff;
+    color: ghostwhite;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+  }
+
+  .footer h1 {
+    font-size: 1rem;
+  }
+
+  .successMessage,
+  .errorMessage {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+}
