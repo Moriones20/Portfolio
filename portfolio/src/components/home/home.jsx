@@ -36,6 +36,7 @@ const Home = () => {
   return (
     <div className={styles["containerHome"]}>
       <div className={styles["infoFirstHome"]}>
+        <div className={styles["imagenProfileResp"]}></div>
         <h2>Bienvenido!</h2>
         <h1>
           {typedText}

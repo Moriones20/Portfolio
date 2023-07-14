@@ -40,15 +40,15 @@
 
 .contactCV button {
   font-size: 1.2rem;
-  padding: 10px 20px; 
-  border: 2px solid #1E90FF;
+  padding: 10px 20px;
+  border: 2px solid #1e90ff;
   border-radius: 100px 100px 100px 100px;
-  color: #1E90FF;
+  color: #1e90ff;
   transition: 0.4s ease-in-out;
 }
 
 .contactCV button:hover {
-  background-color: #1E90FF;
+  background-color: #1e90ff;
   color: ghostwhite;
 }
 
@@ -61,8 +61,14 @@
 }
 
 @keyframes arrowBounce {
-  0% { transform: translateY(-30px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1;}
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .blinkingBar {
@@ -86,6 +92,16 @@
 }
 
 @media (max-width: 768px) {
+  .imagenProfileResp {
+    background-image: url("../../assets/Profile_photo.jpg");
+    background-size: contain;
+    background-position: center;
+    width: 160px;
+    height: 160px;
+    border: 6px solid #353c4c;
+    border-radius: 100%;
+  }
+
   .infoFirstHome h2 {
     font-weight: bolder;
     font-size: 1.6rem;
