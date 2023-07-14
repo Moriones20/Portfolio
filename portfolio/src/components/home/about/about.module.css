@@ -100,12 +100,14 @@
   }
 
   .infoAboutMe h2 {
+    text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
     margin: 8px 0px;
   }
   
   .infoAboutMe p {
+    text-align: justify;
     font-size: 1rem;
   }
 

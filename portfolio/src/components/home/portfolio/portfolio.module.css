@@ -114,13 +114,14 @@
 
 @media (max-width: 768px) {
   .containerPortfolio h1 {
-    height: 10%;
+    height: auto;
+    margin-bottom: 20px;
     font-size: 2rem;
     font-weight: bold;
   }
 
   .containerPaginate {
-    height: 90%;
+    height: auto;
   }
 
   .project img {

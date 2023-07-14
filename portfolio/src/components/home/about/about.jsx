@@ -9,7 +9,7 @@ const About = () => {
       <div className={styles["contentAbout"]}>
         <div className={styles["infoAboutMe"]}>
           <h2>
-            Soy <span>Felipe Moriones</span>, desarrollador Full Stack
+            Soy <span>Felipe Moriones</span> Desarrollador Full Stack
           </h2>
           <p>
             Como Desarrollador Web Full Stack, me apasiona enfrentar nuevos
