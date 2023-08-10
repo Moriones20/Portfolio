@@ -67,7 +67,6 @@
 .project a {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
   width: fit-content;
   font-size: 1.2rem;
   padding: 6px 12px;
@@ -80,6 +79,16 @@
 .project a:hover {
   background-color: #1e90ff;
   color: ghostwhite;
+}
+
+.links-btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.links-btn a {
+  margin: 0 4px;
 }
 
 .iconInternet {

@@ -4,14 +4,16 @@
     "image": "https://i.ibb.co/W0VdGmX/codecommunity.png",
     "description": "Red social para programadores.",
     "tech": "React, JS, Bootstrap, Django, Python, PostgreSQL",
-    "link": "https://github.com/Sorsant/CodeCommunity"
+    "link": "https://github.com/Sorsant/CodeCommunity",
+    "web": "https://code-community-three.vercel.app/"
   },
   {
     "name": "Pokemon APP",
     "image": "https://i.ibb.co/Y0w2nNc/Pokemon-App.png",
     "description": "App para descubrir Pokémon.",
     "tech": "React, JS, Express, Sequelize, PostgreSQL",
-    "link": "https://github.com/Moriones20/PI-Pokemon-main"
+    "link": "https://github.com/Moriones20/PI-Pokemon-main",
+    "web": "https://pokemonappi.vercel.app/"
   },
   {
     "name": "Rick and Morty APP",
