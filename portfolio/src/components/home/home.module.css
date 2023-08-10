@@ -121,4 +121,8 @@
   .contactCV button {
     font-size: 1rem;
   }
+
+  .iconHome {
+    display: none;
+  }
 }
