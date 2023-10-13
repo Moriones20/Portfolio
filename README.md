@@ -1,3 +1,3 @@
-# portfolio
+# portfolio 🧑‍💻
 
-This is my portfolio.
+This is my portfolio based in React.
