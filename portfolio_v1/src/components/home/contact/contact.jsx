@@ -179,8 +179,8 @@ const Contact = () => {
       <footer className={styles["footer"]}>
         <h1>
           Copyright © 2023{" "}
-          <a href="https://felipemoriones.vercel.app">Felipe</a>. All Rights
-          Reserved.
+          <a href="https://www.felipemoriones.com/">felipemoriones</a>. All
+          Rights Reserved.
         </h1>
       </footer>
     </div>
